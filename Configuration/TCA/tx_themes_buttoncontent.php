@@ -37,7 +37,7 @@ return array(
 			'exclude' => 1,
 			'label'   => $l10n . 'linktarget',
 			'config'  => array(
-				'eval' => trim,
+				'eval' => 'trim',
 				'max'  => 1024,
 				'size' => 50,
 				'softref' => 'typolink',
